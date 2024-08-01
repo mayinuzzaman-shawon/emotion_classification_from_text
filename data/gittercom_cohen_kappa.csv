@@ -1,0 +1,401 @@
+﻿Channel,message,category_mayinuzzaman,category_naveen
+Cucumber,"Hi Team, I just recently upgraded our cucumber-jvm version ever since then I am getting following error ",fear,fear
+Cucumber,So github is trying to replace irc :P,fear,fear
+Cucumber,"@aslakhellesoy Thanks , seems like I was using older version of cucumber-core , updated the maven with specific version and things started working ",joy,joy
+Cucumber,@Sidkiyassine just call the methods directly!,surprise,angry
+Cucumber,"Hello guys, need a help.I want to call the run my featute file by calling the cucumber.cli.Main form a java class by passing the the parameters like tags ,format..I its possible.I don want to use cucumber options as I have to pass the tag name s as a variable ...",fear,fear
+Cucumber,"Hello guys,\nIs it possible to get  test coverage using jacoco for android tests?\ndefaultConfig {\n              testInstrumentationRunner \cucumber.api.android.CucumberInstrumentation\\n    }",fear,fear
+Cucumber,"hey everyone, can someone help me out with running a feature file with specific tags included and excluded?",fear,surprise
+Cucumber,and the above doesnt seem to work :(,fear,fear
+Cucumber,or does it create a new object every time also?,fear,fear
+Cucumber,"I think, but it's been a while since I did ruby cucumbers, that objects created in ruby stepdefs files not inside of a Before aren't re-initialized every time",fear,sadness
+Cucumber,is that assumption correct?,fear,fear
+Cucumber,"hey everyone, is it possible to run only a subset of examples in a table for scenario outline?",fear,surprise
+Cucumber,is it possible to tag specific table entries instead?,fear,fear
+Cucumber,"ah, interesting. Ill play around with this :)",joy,joy
+Cucumber,"1) it doesn\u2019t seem to call the constructor, or even instanciate final fields, which is a bit of a pain",anger,anger
+Cucumber,2) there doesn\u2019t seem to be any way to use transforms in conjunction with it (I don\u2019t really understand how transforms work on Cucumber JVM but that\u2019s what people told me) which would help give you more flexibility,fear,fear
+Cucumber,"Seems a bit weak to me. It\u2019s a shame we haven\u2019t had any PRs about this, but I guess a lot of our enterprisey users just don\u2019t consider doing that (or aren\u2019t allowed to while at work)",anger,sadness
+Cucumber,"But, I do not know how to make coexist the two versions, one for 3 and another for 4 in the same trunk, without duplicate code.",sadness ,sadness
+Cucumber,Again - would need a ticket in order to prioritise this. If there is no ticket the problem doesn't exist.,anger,anger
+Cucumber,"its something ive been planning to do as well, let me know if you make any progress :)",love,sadness
+Cucumber,"@nablik if you re-run tests and they pass, I assume you've changed something to make them pass. Wouldn't that invalidate the previous test results?",fear,fear
+Cucumber,@Simon-Kaz your tests are trying to tell you something. They are trying to tell you your design is too tightly coupled to this external service.,anger,surprise
+Cucumber,What's the value of a test result if the tests fail intermittently and have to be run several times in order to pass?,anger,anger
+Cucumber,@Simon-Kaz have you considered adopting a ports and adapters design so you can test without depending on external services you don't control?,anger,anger
+Cucumber,@nablik so what exactly are you testing? That you can retrieve the data from the 3rd party service? That you\u2019re displaying it properly? Testing both of those in the same test is very inefficient. I\u2019d split that up in independent tests.,anger,anger
+Cucumber,"@aslakhellesoy : My question here is not how to test or not. I have tests that cover each module separately. This one is more end to end test, in integration level. However, my question is related to merging 2 cucumber report into one instead of overwriting it. ",fear,fear
+Cucumber,i found a discussion on this topic but i cant find any resolution to it https://groups.google.com/forum/#!searchin/cukes/alias$20jbehave/cukes/enPlH3xut2E/Z-KyVl18ytwJ,sadness,sadness
+Cucumber,"@aslakhellesoy  yes, removing cucumber-java from the classpath fixes that issue. Thanks. ",joy,joy
+Cucumber,"Hi, I am trying to run my test, but I can only see that my first test is running, but my second step in the steps definitions is not being executed, plz help, thanks",fear,fear
+Cucumber,Has anyone had any joy using cucumber-jvm to  allow bdd of a  Netbeans Platform App? Or am I barking up the wrong tree?,fear,fear
+Cucumber,i have a query.. i have multiple feature files but all definations dump into single step defination file.,fear,sadness
+Cucumber,now problem is that i want to make multiple step defination files.. but here i did not find any way to share variable between two step defs... ,fear,fear
+Cucumber,the work around would be i need to pass variables to each function call which i guess really bad approach,fear,fear
+Cucumber,is there any possiblity to simplefy this using DI??,fear,fear
+Cucumber,its a crappy situation really,anger,anger
+Cucumber,i have an external service that SOMETIMES is down (too often for my taste),sadness,sadness
+Cucumber,i can only verify that during a test,sadness,sadness
+Cucumber,"i need some interim solution for now though, was hoping for the 'skip test' option :)",sadness,fear
+Cucumber,"yeah, ive added tags and removed those tests from main suite. I really need them ran though :(",sadness,sadness
+Cucumber,"the failures are intermittent, so it'd be a shame to have the tests removed just because the service is flaky",anger,anger
+Cucumber,let it fail so the business prioritizes fixing it? :),anger,fear
+Cucumber,lol its out of my reach sadnessly,sadness,sadness
+Cucumber,@dkowis I like that advice!,love,love
+Cucumber,"So when people come by and are like, Why are your tests failing? Because I need to insulate myself from crappy services",anger,anger
+Cucumber,and they don't care about failing tests?,surprise,surprise
+Cucumber,all marked with 1 failure :D,sadness,sadness
+Cucumber,"fortunately, given that its only one test, it should be relatively easy to fix?",joy,joy
+Cucumber,so i dont think i can mock that one and leave the rest,fear,fear
+Cucumber,Your tests are trying to tell you something. ,anger,anger
+Cucumber,They\u2019re whispering \u201cyour app is hard to test. make it easy to test\,anger,anger
+Cucumber,nailed it!,joy,joy
+Cucumber,"Solve the fundamental problem, stop looking for workarounds ;-)",joy,joy
+Cucumber,i need the server dev to work out the setup/architecture for mock server though,fear,fear
+Cucumber,no point working with flaky services,anger,anger
+Cucumber,"after all, they are not what im testing",sadness,sadness
+Cucumber,how can I achieve this -- a little details would help ,fear,fear
+Cucumber,i checked prototype and singleton but they did not work,sadness,sadness
+Cucumber,so how can we do that.. let me upload my sample code.,fear,fear
+Cucumber,is there a way to detect if a feature is finished?,fear,fear
+Cucumber,Why do you need to detect if a feature is \finished\?,anger,anger
+Cucumber,or why not use @AfterClass,anger,anger
+Cucumber,theres no @AfterClass in cucumber jvm,sadness,sadness
+Cucumber,"Ah, because it hasn't been finished yet",sadness,sadness
+Cucumber,"yep, sadnessly",sadness,sadness
+Cucumber,i think i tried all the possible options already ;),sadness,sadness
+Cucumber,"welp, pull requests accepted, heh",joy,surprise
+Cucumber,zsolt fabok's suggestion is really good if you need to do something at the end of suite,joy,joy
+Cucumber,"but my suite takes 3 hours, so i need to do something at the end of feature instead :)",sadness,sadness
+Cucumber,Might have to do the much uglier \And the server is stopped\ steps for now,anger,anger
+Cucumber,"less than ideal, and it bleeds things that shouldn't be in the feature, but it's where we're at right now",anger,surprise
+Cucumber,"ill play around with it some more, i need to work out something anyway :)",joy,joy
+Cucumber,good luck,love,love
+Cucumber,ill definitely try :),joy,joy
+Cucumber,Has anyone successfully run cucumber-jvm using testng running each user case in a separate thread?,fear,fear
+Cucumber,cucumber-jvm is not thread-safe,fear,fear
+Cucumber,dont think that'll work,fear,fear
+Cucumber,so for now if I want to use gherkin in java either I run my tests serialized or look for another option other than cucumber-jvm?,fear,fear
+Cucumber,some tests are inherently slow,sadness,sadness
+Cucumber,and splitting the suite in different groups doesn't look like a good option,sadness,sadness
+Cucumber,e2e tests can indicate a lack of trust in lower level tests,fear,fear
+Cucumber,or a lack of coverage in those lower level tests,fear,fear
+Cucumber,"There are no lower level tests I'm afraid, legacy code, hard to add unit testing there, also monolythical app so no API tests",sadness,sadness
+Cucumber,"yeah, that's hard",sadness,fear
+Cucumber,just slow,sadness,sadness
+Cucumber,sometimes you're not in position to add lower level tests ,sadness,sadness
+Cucumber,my job as an automation engineer is to create e2e/ui tests,sadness,sadness
+Cucumber,Yeah that's a sign of sickness in the organization,anger,anger
+Cucumber,They're going to have a bad time,fear,fear
+Cucumber,that's a silo,sadness,sadness
+Cucumber,"sorry, man :(",sadness,sadness
+Cucumber,"Advocate for the change, not that it may get you anywhere",sadness,sadness
+Cucumber,I'm currently in a similar area right now,sadness,sadness
+Cucumber,and it's unbelievably frustrating,anger,anger
+Cucumber,"Hi guys, is there a cucumber-jvm branch accepting the Pickle type Steps from ast?",fear,fear
+Cucumber,hi @demos74dx. As far as I know there isn't yet. Are you interested in helping out with it?,sadness,sadness
+Cucumber,I think it needs a pretty big refactor to accomplish though,fear,fear
+Cucumber,you could do worse than use http://github.com/cucumber/cucumber-ruby-core for reference,anger,anger
+Cucumber,took us about 18 months!,surprise,surprise
+Cucumber,I'll take a look thanks,love,love
+Cucumber,"So, I've been wondering though, or maybe I'm \cuking it wrong\",fear,fear
+Cucumber,@mattwynne Am I correct in assuming that everything in  core.cucumber.runtime.model is trash and replaced by ast?,fear,fear
+Cucumber,also what does ast stand for?,fear,fear
+Cucumber,"Hello,\nCan we run Scenarios or feature in parallel with only one runner class ?  ",fear,surprise
+Cucumber,I'm having problems printing reports on Cucumber JVM ,fear,fear
+Cucumber,I'm trying to use  https://github.com/damianszczepanik/cucumber-reporting  the reports are generated but no data is printed on them it shows 0 results,sadness,sadness
+Cucumber,did this happen to anyone?,fear,fear
+Cucumber,i get it whenever the build fails,fear,fear
+Cucumber,"the reports are generated and I have tests that had failed and pass but I get non of this in the reports, the json file is generated and it has the pertinent data, the reports are just not showing it",sadness,sadness
+Cucumber,"and i had to specify the path to the file, otherwise the reports would return blank because i had other json files in there",sadness,sadness
+Cucumber,"I'm using maven by the way, and it is using that file because if I rename it brakes",sadness,sadness
+Cucumber,yes I am!,surprise,surprise
+Cucumber,"from what I can see is not injecting the data into the html, but that's strange because I can't even generate the report without the  JSON file with the data that it needs to populate the actual report, I'm so confused ",fear,fear
+Cucumber,"It\u2019s a fairly big task to refactor Cucumber-JVM to use Gherkin3 - @brasmusson did it for Cucumber-Ruby. I have a branch on Cucumber-JVM that started the work, but there is still lots to do",fear,fear
+Cucumber,im interested ,joy,joy
+Cucumber,"@Simon-Kaz I'll get one to you tomorrow, nothing is checked in atm and the code is a cluster fuck (pardon my french)",anger,anger
+Cucumber,I'm also referring to the ruby implementation wherever possible to mirror some of that.  Not so great at ruby so it's more of a guideline than anything for me.,sadness,sadness
+Cucumber,"@Simon-Kaz I'm also fairly new to Git and contributing to OpenSource, been doing my own thing on Subversion for far far too long.",fear,fear
+Cucumber,"So I'm still working out the kinks there, like I \think\ I made my own branch on my fork, but it's not showing up on git for w/e reason.  I'll google all that stuff and get it up after I can clear my mental cache from this bit of refactoring I'm working on.",sadness,sadness
+Cucumber,im an automation specialist (whatever that means haha) for appium and selenium,joy,joy
+Cucumber,appium is pretty much selenium so its refreshing ;),joy,joy
+Cucumber,"@Simon-Kaz but I want cucumber-jvm to be a plugin when it launches, so I kinda need this working first.",fear,fear
+Cucumber,"nice, I've done something similar with spring, but only really done android via selendroid so far.",joy,joy
+Cucumber,appium's great,joy,joy
+Cucumber,lots of potential,joy,joy
+Cucumber,works well with cucumber-jvm too :),joy,joy
+Cucumber,appium is an amazing tool for that,joy,joy
+Cucumber,oh that's nice,joy,joy
+Cucumber,but it didn't capture the time argument,fear,fear
+Cucumber,im still kicking myself for not going,sadness,surprise
+Cucumber,should've shelled the cash out of my savings,sadness,sadness
+Cucumber,"I was a bit off because I couldn't see what I was doing on my own screen, only the projector...flying blind",sadness,sadness
+Cucumber,I'll  give it a try thank you so much! ,love,love
+Cucumber,"@demos74dx thank you for the offer, but I would probably prefer to continue work on my own branch",love,joy
+Cucumber,@demos74dx What would users be able to do if Cucumber was a `@Rule` and not a `@RunWith`?,fear,fear
+Cucumber,"So their could maintain their own @RunWith configurations, and then simply add the @Rule to the Test Class meant to be run, this is where things get a little weird and (maybe) impossible for cucumber-jvm to do it",fear,fear
+Cucumber,"but as you can see, these rules require statement and description to be already implemented at some point",fear,fear
+Cucumber,not sure if there's a way to do so within the rule format,fear,fear
+Cucumber,"So basically, if Cucumber used rules, it would interfer less with other junit extensions?",fear,fear
+Cucumber,or coexist more easily?,fear,fear
+Cucumber,"granted you could still provide ways for people to integrate with spring easier, but now things much more decoupled and therefor easier to maintain",joy,joy
+Cucumber,"However, there is a whole hierarchy of features/scenarios/steps to run, and it doesn\u2019t look like a `Statement` can have children...",fear,fear
+Cucumber,you almost have to forget everything you know about modifying the runner and try to work with the (imaginary) runner already in place.,sadness,sadness
+Cucumber,Which again means that IDEs wouldn\u2019t be able to report results nicely,sadness,sadness
+Cucumber,"yeah, I'm not 100% sure it's cracked up to work with cucumber-jvm, because it's such a strange usecase for JUnit",fear,fear
+Cucumber,That would be excellent. Thanks!,love,love
+Cucumber,or I solve that...who knows :worried: ,fear,fear
+Cucumber,"I almost might have to do that first actually, I am getting paid by somebody to produce results, so I kinda need to get a solution out the door(even if temporary) sometime in the next few days.",fear,fear
+Cucumber,"I'll get back to work, so close to running pickles :)",joy,joy
+Cucumber,does anybody know which version my IDE should be at for working on this?,fear,fear
+Cucumber,"Is anybody familiar with the direction the Keyword annotations are going in?  @Given, @When, @Then, etc?",fear,fear
+Cucumber,Does someone know how to integrate spoon and cucumber ?,fear,fear
+Cucumber,"Hi ways, any of you know how to use cucumber in a playframework project (scala)",fear,fear
+Cucumber,"Solved, thanks anyway",love,love
+Cucumber,"@aslakhellesoy hey, I got sidelined from cucumber for a few days, back on it now.  I noticed these step def annotations were removed in master and I was wondering how they would get implemented, in the mean-time for my code I just made a @StepDef annotation that replaces all of them.  ",fear,fear
+Cucumber,"@aslakhellesoy  I'm not seeing any advantage to TreeMap over HashMap in RuntimeGlue.  TreeMap would be useful if ordering was necessary but I don't see any need for ordering here.  TreeMap access is O(log n) and HashMap access is O(1), we could see about a 10x increase in speed while accessing StepDefinitions if we switched.",anger,joy
+Cucumber,Yeah maybe. Sounds like bikeshedding to me ;-),anger,anger
+Cucumber,Is there any way to make intellij show colored output? like not monochrome?,fear,fear
+Cucumber,"@aslakhellesoy thanks.  I'm wondering if anyone has solved the problem of testing Angular apps from Java. \nBTW, love the Cucumber books",joy,joy
+Cucumber,Thanks!,love,joy
+Cucumber,"@aslakhellesoy some team members are suggesting using Cucumber-JS.  I think that would mean either having multiple test suites, or losing a fair amount of investment in Java",fear,fear
+Cucumber,"I don't expect all tests to be from the front end, but I would expect to be able to do this.  We can do this from DOM, but AngularJS doesn't really work that way.",sadness,sadness
+Cucumber,"And while you can test at unit and component level, there's always a chance that they don't work together as expected",fear,sadness
+Cucumber,It's perhaps more of a webdriver issue - just wondered if anyone else has had and solved a similar problem,fear,fear
+Cucumber,"@otoniel-isidoro-sofist - Thanks, yes I saw that.  It is in JavaScript rather than Java, but it might end up being what we need to use.  Trying to avoid either having multiple test suites, or losing a fair amount of investment in Java",fear,fear
+Cucumber,"Yes.  Thanks for your time today @aslakhellesoy.\nIf it's of any interest, the content here looks like it should be of help in my case https://dzone.com/articles/webdriver-and-angularjs",love,love
+Cucumber,not glue but clue :),joy,joy
+Cucumber,@yevgenys sorry you\u2019d have to read the source code I\u2019m afraid,fear,fear
+Cucumber,"i see, ok thx ",love,love
+Cucumber,Hi All I need help on this.,fear,fear
+Cucumber,"Hi All, I need help on how to organise my step definition in cucumber jvm framework.",fear,fear
+Cucumber,"I just gave the opportunity to cucumber-jvm again, but for me is really really important that the tests can execute in parallel. Most of the tests are e2e, wether they're loading a webdriver instance or attacking an API. Switching to jbehave, after researching a bit I think I'll find greener fields there.",sadness,sadness
+Cucumber,Can any body help me how to create an executable jar out of cucumber-maven project,fear,fear
+Cucumber,i tried with 'maven-shade-plugin' but the created jar does not contain files under 'test' folder. ,sadness,sadness
+Cucumber,Hi folks.  Does anyone know where I should put @Before(\@Firefox\) tags?  I can't find very much cohesive information on it.  Intention is to be able to control which webdriver to use for any given test run.\nIt's very possible that this would be better achieved using configuration or Dependency Injection.  Guidance much appreciated :),fear,fear
+Cucumber,"For example, The Cucumber Book for Java - which is great btw ;) suggests using\n@Before(\@admin\)\npublic void logInAsadnessmin() { ... }\nI'm not sure where should/could the code go, and when is it executed?",fear,fear
+Cucumber,not sure if you've gotten to the dep injection part,fear,fear
+Cucumber,"Thanks @Simon-Kaz.  Yes, it could be that I didn't realise that Dependency Injection was required.  I'll re-read",sadness,sadness
+Cucumber,"hi, i am running into cucumber-spring-1.2.4 vs spring-boot-1.3.0 issues.  http://pastebin.com/KxVyNsRK (java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy)",fear,fear
+Cucumber,i take it cucumber-jvm needs to catch up with the recent spring boot release? or am i running into a more obscure issue here?,fear,fear
+Cucumber,"hey guys,\nI am new in cucumber, but I need to use this(cucumber-jvm + appium) in my project. I installed all this stuff and don't know what to do. I general I understand , but in my project some programmer write some code and there a lot of classes. I confused. Can somebody explain this, or at least send me some helpful articles, I read a lot, but still stuck on this\nThank you very much!",fear,fear
+Cucumber,var code = \thank you!\;\n\n\n \n\n\n,love,love
+Cucumber,```\nthank you!\n\n```\n,love,love
+Cucumber,"As you\u2019ll see from my comment today, gradle swallows cucumber's STDOUT. Any idea how to make it not do that?",fear,fear
+Cucumber,(I don\u2019t know gradle),sadness,sadness
+Cucumber,"@aslakhellesoy I still have questions about documentation\nFOR EXAMPLE, I have next code:\n```\n",fear,fear
+Cucumber,"@Simon-Kaz can you explain in two words about appium, cucumber and junit. In general I understand but still suck",sadness,sadness
+Cucumber,"@aslakhellesoy thank you, man! very much. I understood",love,love
+Cucumber,"have next problem, can someone help me?\n``` \nMessage: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\n.\n.\n.\nCaused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused\n``` ",fear,fear
+Cucumber,"@mikolasw not Cucumber related, sorry",sadness,sadness
+Cucumber,@aslakhellesoy thank you! I solve this problem,joy,joy
+Cucumber,"@aslakhellesoy also I have some problem, that I cannot open .feature file in my Android Studio",fear,fear
+Cucumber,"because when I click on the .feature file in Android Studio its opening a Notes App, and I cannot edit this",sadness,sadness
+Cucumber,"I did it, thank you!",love,love
+Cucumber,"Hi, guys. Could someone help me please to figure  what's wrong with build of my pull-request https://travis-ci.org/cucumber/cucumber-jvm/jobs/95061885\n```\n[ERROR] Failed to execute goal on project cucumber-core: Could not resolve dependencies for project info.cukes:cucumber-core:jar:1.2.5-SNAPSHOT: Failed to collect dependencies at info.cukes:cucumber-html:jar:0.2.4-SNAPSHOT: Failed to read artifact descriptor for info.cukes:cucumber-html:jar:0.2.4-SNAPSHOT: Could not transfer artifact info.cukes:cucumber-html:pom:0.2.4-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]\n```\n\n",fear,fear
+Cucumber,Why it can't deal with already existing snapshot ?\n,fear,fear
+Cucumber,"sorry, I found the root cause.\nIs there any information when it could be fixed ?",fear,fear
+Cucumber,"thank you guys, but i already solved this",joy,joy
+Cucumber,and I have next question about sendKeys(). does this method have some limitation?,fear,fear
+Cucumber,solved,joy,joy
+Cucumber,"hi, I'm new to cucumber. I need to figure out what new features/enhancements introduced in the past releases. How can I find it? I'm looking for something similar to release notes. Thanks a lot in advance..",fear,fear
+Freezing Moon - Ancient Beast,"I've noticed that it got quite popular, some nice projects are making really good use of it and I'm starting to like it as well.",joy,surprise
+Freezing Moon - Ancient Beast,Not sure why I or anyone else got added. Might want to consider asking first. ,anger,sadness
+Freezing Moon - Ancient Beast,"@seiyria Way to kill the vibe, you're free to leave if you want. I'm new to gitter and it suggested me people, probably that starred the project on github and might be interested in it. When I clicked add on someone it said that he was invited, so that sounds like something that has to be approved manually to me. Sorry for your inconvenience, thanks for your feedback.",anger,anger
+Freezing Moon - Ancient Beast,FF is working online so it's definitely a problem with my browser when running localhost,fear,fear
+Freezing Moon - Ancient Beast,"oh gitter, why black text on black background for the text input T.T noob mistake, not setting background-color",anger,anger
+Freezing Moon - Ancient Beast,"it's because my system colors are a bit different, but nothing a minor hack didn't fix here :) i'm gonna report a bug though",joy,joy
+Freezing Moon - Ancient Beast,cool; I've recently got into a tendency to use dark themes wherever possible,joy,joy
+Freezing Moon - Ancient Beast,"i think so too, alright bug reported",sadness,fear
+Freezing Moon - Ancient Beast,can you guide me through how to upgrade an abolished?,fear,fear
+Freezing Moon - Ancient Beast,@tukkek do you mean an ability? Abolished is a unit xD,joy,joy
+Freezing Moon - Ancient Beast,"in the issue you say only abolished have upgrades enabled, i just can't find where in the ui i can apply upgrades",fear,anger
+Freezing Moon - Ancient Beast,#869 should be fixed asap perhaps in order to make testing easier ,fear,fear
+Freezing Moon - Ancient Beast,"i see, great, let me take a look at the source code for the unit though (love how it shouts it's name when summoned btw :D)",joy,joy
+Freezing Moon - Ancient Beast,"hehe, that should help with getting people learning the unit names",joy,fear
+Freezing Moon - Ancient Beast,"well, it dies and leaves a consumable behind",sadness,sadness
+Freezing Moon - Ancient Beast,"not it's gone, not sure why it didn't leave at first",surprise,surprise
+Freezing Moon - Ancient Beast,"no, chrome now.. it died but it is still there, both occupying the spaces and in the turn sequence",sadness,fear
+Freezing Moon - Ancient Beast,also how are you supposed to defeat a player if the plasma shield prevents any damage from being done? i'm taking some time to check out the creatures and powers now,fear,fear
+Freezing Moon - Ancient Beast,"there's a bug currently and the plasma indicator doesn't gets revealed anymore under the dark priest after using some plasma, which makes things a bit more confusing",sadness,fear
+Freezing Moon - Ancient Beast,"a lot of small bugs like that which need to be crushed in order to get things back on track, sigh",sadness,sadness
+Freezing Moon - Ancient Beast,i get what plasma is but i don't see it decreasing when i hit the enemy player.. is that the bug you mentioned?,fear,fear
+Freezing Moon - Ancient Beast,"so it's not really ideal for your Dark Priest to take hits, even if he gets shielded, as you lose summoning (materialization) potential and get closer to becoming vulnerable",sadness,sadness
+Freezing Moon - Ancient Beast,that's not extremely important to be shown there,anger,anger
+Freezing Moon - Ancient Beast,"alright i gave the game a better look and i think it's got a ton of potential, and the code seems pretty decent as well - I would expect it to be a lot more disorganized to be honest, considering the hexagon shapes and all. it probably needs a lot of love to reach it's potential though, from bug squashing to computer ai, multiplayer and so on... i still have a lot to learn though so maybe i'm judging things too fast",joy,joy
+Freezing Moon - Ancient Beast,but i think im ready to try and code some of those upgrades now :),joy,joy
+Freezing Moon - Ancient Beast,good ^^,joy,joy
+Freezing Moon - Ancient Beast,"some of the Abolished's ability coding could get clean-up for sure, lots of nested if statements that aren't even required anymore, legacy logic",sadness,sadness
+Freezing Moon - Ancient Beast,and that's usually the first file people tend to check out and get intimidated,sadness,sadness
+Freezing Moon - Ancient Beast,"I'm constantly improving things, so if I keep at it, things should scale nicely for sure",joy,joy
+Freezing Moon - Ancient Beast,"i saw a bit of that, but mostly a code organization issue, not a design problem.. anyway just my first impression of the code base... looks pretty decent to me even with that",joy,joy
+Freezing Moon - Ancient Beast,"the guy who coded it is quite amazing, he's a really great artist and wants to pursue that path, so he'll be able to rejoin a bit later on when the focus is primarily on eye candy and animation",love,love
+Freezing Moon - Ancient Beast,you're both from same country :D,joy,joy
+Freezing Moon - Ancient Beast,"@DreadKnight wonders how to get nickname autocompletion around, tab key not working hmm",fear,sadness
+Freezing Moon - Ancient Beast,"Right now I'm trying to fix my profile picture. I did change it, but it still shows me the default one",sadness,fear
+Freezing Moon - Ancient Beast,it looks pretty good as-is nowaday as well! sure it's not the most beautiful game in the world but it's really above average.. have u guys put any though on how ai and network play should be done in the future (sorry if I am afk focusing on hacking stuff),joy,joy
+Freezing Moon - Ancient Beast,Which is a weird polygon of some sorts,sadness,sadness
+Freezing Moon - Ancient Beast,@tukkek tries to change @Zephyrum  avatar by force but fails,sadness,sadness
+Freezing Moon - Ancient Beast,"@Zephyrum yeah, it is kinda weird, it might update later on, as they have some server caching",sadness,sadness
+Freezing Moon - Ancient Beast,"argh, I can never get quotes to work properly",sadness,anger
+Freezing Moon - Ancient Beast,"Still trying to get used to this chat, it's sort of  uncommon",sadness,sadness
+Freezing Moon - Ancient Beast,"omg bbq, I can't get quotes to work like that for me ",fear,fear
+Freezing Moon - Ancient Beast,"> omg bbq, I can't get quotes to work like that for me ",fear,fear
+Freezing Moon - Ancient Beast,"> omg bbq, I can't get quotes to work like that for me \n\nI just click on the \Quote\ chat option",fear,fear
+Freezing Moon - Ancient Beast,"yes, but what to do after? ctrl + enter and then type?",fear,fear
+Freezing Moon - Ancient Beast,"tried that before, meh",sadness,sadness
+Freezing Moon - Ancient Beast,"> yes, but what to do after? ctrl + enter and then type? bacon",fear,fear
+Freezing Moon - Ancient Beast,^ bad.,sadness,sadness
+Freezing Moon - Ancient Beast,"> Shift-enter, as if typing a new paragraph\nbacon, works!",anger,fear
+Freezing Moon - Ancient Beast,> This is a fake quote.,sadness,sadness
+Freezing Moon - Ancient Beast,fail,sadness,fear
+Freezing Moon - Ancient Beast,> Will not work\nLike this,anger,anger
+Freezing Moon - Ancient Beast,"true, it's how markdown works, forgot",sadness,sadness
+Freezing Moon - Ancient Beast,haha,joy,joy
+Freezing Moon - Ancient Beast,seems you're better at this compared to me,love,love
+Freezing Moon - Ancient Beast,too much shitposting on forums; learned how to get used to weird formatting,anger,sadness
+Freezing Moon - Ancient Beast,"@Zephyrum woot! so i need to start with @ to mention someone, like on twitter / fb",sadness,sadness
+Freezing Moon - Ancient Beast,"This smileys/emoticons roster is pretty weird, why does anyone need a \large blue circle\ in a conversation is beyond me",anger,anger
+Freezing Moon - Ancient Beast,"ahahahaha ikr, maybe it's useful for doing bullet lists or indicating status of something",joy,joy
+Freezing Moon - Ancient Beast,yea i guess if network play is ready the ai is not that important anyway! do you guys have any idea how to print a variable value for debugging pruporses? window.alert doesn't seem to work,fear,fear
+Freezing Moon - Ancient Beast,more importantly when I run  `grunt` does it launch the version under the folder \development\?,fear,fear
+Freezing Moon - Ancient Beast,@tukkek yes! grunt is all about the development atm,joy,joy
+Freezing Moon - Ancient Beast,"will try to make that more clear, I see how \stable\ vs development can be confusing, setting more stuff into place with time related to that",sadness,sadness
+Freezing Moon - Ancient Beast,that would be awesome! i guess the design is already pretty good for a gamepad huh.. i wanted to add gamepad support for javelin but there is so many commands it's not really possible,joy,joy
+Freezing Moon - Ancient Beast,"@Zephyrum yeah, constantly thinking of that, but current engine doesn't do 3d, which will be required xD so I'm guessing there will be a port eventually",sadness,sadness
+Freezing Moon - Ancient Beast,"there is so much that can be done with this game, im getting pretty hyped here.. somebody hold me please xD",joy,joy
+Freezing Moon - Ancient Beast,voice recognition: please let me summon creatures by shouting their names like a bad-ass xD,joy,joy
+Freezing Moon - Ancient Beast,"haha, a lot of people love mobas because they like clicking a lot, but those type of games don't scale uber well with a lot of tech tbh",joy,joy
+Freezing Moon - Ancient Beast,"yeah, hard to imagine a moba played with oculus for example.. unless you're just using it as an alternate screen that is attached to your face",anger,anger
+Freezing Moon - Ancient Beast,"there was a moba made for tablets... and supposedly optimized and bs... but the guys in the trailer were tapping the tablet screens like fucking morons, you would imagine the cracking in no time",anger,anger
+Freezing Moon - Ancient Beast,"I rage so much while playing on the PC, would probably just smash the tablet to pieces after a few dozen games tops",anger,sadness
+Freezing Moon - Ancient Beast,It is not healthy for your phone,sadness,sadness
+Freezing Moon - Ancient Beast,"maybe if someone made a 1st person view for mobas that would really put you in on the action but idk any that is like that... actually i saw one fps moba once but it wasnt that good, not even when compared to the classics",sadness,sadness
+Freezing Moon - Ancient Beast,"played on a neighbour chick's phone a 3vs3 one and I was tapping all around yet still winning, it was pretty easy stuff overall",joy,joy
+Freezing Moon - Ancient Beast,"Smite is the closest to that, but honestly I can't see that working",sadness,fear
+Freezing Moon - Ancient Beast,"It kills your capacity to view your surroundings, you can literally only see what is in front of you",sadness,sadness
+Freezing Moon - Ancient Beast,the fact the distributor for smite in here is shitty and does all they can to leech money effortlessly does not help >.>,anger,anger
+Freezing Moon - Ancient Beast,"sanity check: units can never have negative hp, right? once they reach 0 they're gone?",fear,fear
+Freezing Moon - Ancient Beast,most of the time you see your character's back mostly.... which is distracting,anger,anger
+Freezing Moon - Ancient Beast,"I was constantly pissing off the initial developer  because of stuff like that, but otherwise things would be too alike",sadness,sadness
+Freezing Moon - Ancient Beast,"...I am playing a strategy game (EU4) right now, and the protestant reformation just started in Transylvania somehow. >.>",surprise,surprise
+Freezing Moon - Ancient Beast,"@tukkek yeah but I'm a crappy programmer, can't manage to code AB gameplay properly for now, or things would have been way further ahead",sadness,sadness
+Freezing Moon - Ancient Beast,"I wanted to convert Sweden to protestant, but the goddamn protestantism spawned on the other end of Europe. #ThanksGame",anger,anger
+Freezing Moon - Ancient Beast,"@Zephyrum haven't really played any of the civilization games myself :/ so many good old school games mentioned today that I haven't touched, only researched",sadness,sadness
+Freezing Moon - Ancient Beast,(btw the abolished's drawing is so fabulours i can't handle it haha just look at it all flaming and stuff!),joy,joy
+Freezing Moon - Ancient Beast,"@tukkek if it's not blocked; don't recall if it's coded, but we had some corrections to the formula to avoid ending up with NaN and have playtest ruined thanks to badly coded effects and scenarios",sadness,sadness
+Freezing Moon - Ancient Beast,> (btw the abolished's drawing is so fabulours i can't handle it haha just look at it all flaming and stuff!)\n\n^ perfect depiction of me when I first saw the drawings,joy,joy
+Freezing Moon - Ancient Beast,"good, cause he's a Pride creature after all, @tukkek - might even be might favorite unit xD",joy,joy
+Freezing Moon - Ancient Beast,"hahaha i'm loving it. @DreadKnight  ok, this can be changed later as well, i was just wondering if i did my math wrong",joy,joy
+Freezing Moon - Ancient Beast,"And then it plays out with historical stuff and so on; empires powerful at the time like France and the turks tend to grow quickly while nations who fell like the byzantine empire dies early on; however, this game always finds a way to screw up history and have something stupid happen xD",joy,joy
+Freezing Moon - Ancient Beast,"Like appearently having Martin Luther be born in romania, but hey... It's still fun :p ",joy,love
+Freezing Moon - Ancient Beast,aww hungary converted transylvania back into catholic xd,surprise,surprise
+Freezing Moon - Ancient Beast,"the most obnoxious possible spawns for protestantism ever in this game - transylvania, hungary, sweden and normandy, but nothing in germany...",anger,anger
+Freezing Moon - Ancient Beast,funny seeing different spellings of the same thing,surprise,surprise
+Freezing Moon - Ancient Beast,"good, I'm confident you'll manage; he's most used after all, so it's important xD",love,joy
+Freezing Moon - Ancient Beast,it's almost done :),joy,joy
+Freezing Moon - Ancient Beast,@DreadKnight you're in the wrong neighborhood https://i.gyazo.com/75a78c223ed7aecdacc64f5bfaed976a.png,sadness,anger
+Freezing Moon - Ancient Beast,"Oh, nice; the chat inlines image links",joy,joy
+Freezing Moon - Ancient Beast,And doesn't crop it!,fear,fear
+Freezing Moon - Ancient Beast,"Yeah, nice upgrade compared to most IRC clients",joy,joy
+Freezing Moon - Ancient Beast,"@tukkek should have picked a harder one, haha; some of the other ones will probably intimidate some less chatty coders for sure",joy,joy
+Freezing Moon - Ancient Beast,"still wondering how the turks aren't snowballing into europe nor asia, but I'm not complaining :p ",surprise,surprise
+Freezing Moon - Ancient Beast,"the edit feature here is pretty nice, lack of sleep makes me a bad typer :P",joy,sadness
+Freezing Moon - Ancient Beast,"yeah, I always like to edit stuff xD",joy,joy
+Freezing Moon - Ancient Beast,"@Zephyrum as a history buff that you are, you'll probably love the eventual Kingdom Wars AB mode",joy,joy
+Freezing Moon - Ancient Beast,woot nice,joy,joy
+Freezing Moon - Ancient Beast,sounds nice though,joy,joy
+Freezing Moon - Ancient Beast,been a while since I last played homm3; got a new monitor and it looks a-w-f-u-l because the screen won't resize and the game doesn't have an option to change screen size :/,anger,anger
+Freezing Moon - Ancient Beast,I'm not buying that,anger,anger
+Freezing Moon - Ancient Beast,"ikr, lame; a lot of fans hate the price tag and greediness",sadness,sadness
+Freezing Moon - Ancient Beast,nice :),joy,joy
+Freezing Moon - Ancient Beast,the HD remake is nice I guess,joy,joy
+Freezing Moon - Ancient Beast,but not good enough,sadness,fear
+Freezing Moon - Ancient Beast,it did make some units look less like there's a fog over them,sadness,sadness
+Freezing Moon - Ancient Beast,"was strange to see that some of the units were made from parts, heh",surprise,surprise
+Freezing Moon - Ancient Beast,"But no real big change; animations still very similar and stuff. All of that, and you get to miss out the two expansions and the ease to mod the game",sadness,sadness
+Freezing Moon - Ancient Beast,"anyway, gameplay is really flawed to me, easy to exploit AI and such",anger,anger
+Freezing Moon - Ancient Beast,"even the non-symmetry of the combat field itself, one of the sides a big advantage for no real reason",anger,anger
+Freezing Moon - Ancient Beast,well it's an old game,sadness,sadness
+Freezing Moon - Ancient Beast,"yes, but some new games tend to be made without using the old stuff properly as a base, they skip most of golden stuff altogether and make some new crap that has its own issues",anger,sadness
+Freezing Moon - Ancient Beast,never really noticed an advantage due to that assymmetry,sadness,sadness
+Freezing Moon - Ancient Beast,"@Zephyrum haha, that was the stuff I was talking about regarding the article I should write; the left side and right side corners have different number of adjacent tiles, I think that on the left side, the units in corners are more protected against melee attackers, as less units can fit near them",joy,joy
+Freezing Moon - Ancient Beast,"so that campaign made me realize the big issue, one extra hexagon can make all the difference",joy,sadness
+Freezing Moon - Ancient Beast,"but exactly 1 hp? there's some randomness in Homm3, hits aren't always the same - how does that work? xD",fear,fear
+Freezing Moon - Ancient Beast,is that inside /deploy ?  or is that folder generated dynamically?,fear,fear
+Freezing Moon - Ancient Beast,"The campaign was uber hardcore; it implied low level units with low amounts of damage, so 1-2 points or so",sadness,sadness
+Freezing Moon - Ancient Beast,"@tukkek deploy yeah, sorry, typed path by hand",sadness,sadness
+Freezing Moon - Ancient Beast,"it's a bit annoying when others patch something and I don't understand the patch, because it means in case of something, I can't maintain it myself",anger,anger
+Freezing Moon - Ancient Beast,ok can u help me out a bit with changes to plasma field? i left this one for last since it's a bit more confusing than the others,fear,fear
+Freezing Moon - Ancient Beast,\The shield is no longer triggered when Dark Priest is active\ -> is this something that needs to be done or is it working like that already? (easier to ask than test),anger,anger
+Freezing Moon - Ancient Beast,"i'll test it then np, was just gonna ask about units and powers that could help so thx ",joy,joy
+Freezing Moon - Ancient Beast,also is there any other similar ability that causes counter damage like the upgraded version of plasma field proposes?,fear,fear
+Freezing Moon - Ancient Beast,"and eventually animation wise, it might be a little more awkward, as he would try to move and also shield.... so that change was my latest one and I'm really happy with the idea",joy,joy
+Freezing Moon - Ancient Beast,"currently there's no other one I can think of, kinda avoided that stuff because it was problematic in a lot of cases",fear,fear
+Freezing Moon - Ancient Beast,"\it was problematic in a lot of cases\ yeah this could be harder to code in, i'll have to try it out",fear,fear
+Freezing Moon - Ancient Beast,any idea where to find/acesss queue code?,fear,fear
+Freezing Moon - Ancient Beast,sry for asking small stuff like that but until i get a good grasp on the source files and abilities/units it's easier to ask than to spend 15 minutes searching :P,sadness,sadness
+Freezing Moon - Ancient Beast,i'll take a look thx,love,love
+Freezing Moon - Ancient Beast,usually github is really useful for searching,joy,joy
+Freezing Moon - Ancient Beast,"anyway, no worries, I know my way around the code a bit",joy,joy
+Freezing Moon - Ancient Beast,sure it helps but if you already know the answer to a question it's easier than searching :),joy,joy
+Freezing Moon - Ancient Beast,"yea saw that, let's see if I can use it! Is G.abilites and Game.abilities the same thing?",fear,fear
+Freezing Moon - Ancient Beast,"not sure, some of the class namings piss me off badly",anger,anger
+Freezing Moon - Ancient Beast,yeah I'm wondering how i will get to the `queue` that is inside Game,fear,surprise
+Freezing Moon - Ancient Beast,"as i said the code seem quite well structured, a bit surprising actually",surprise,surprise
+Freezing Moon - Ancient Beast,send kudos to the original rpogrammer for me :),joy,joy
+Freezing Moon - Ancient Beast,i think i got how to code the counter thing but i'm having a little trouble with the coding itself (specifically Ability#target doesn't seem to be working as expected). so if u gotta go don't worry about me :) i'll keep working and hopefully you'll find some news by the morning,fear,fear
+Freezing Moon - Ancient Beast,but i'm not sure i can use that in the way you've described,fear,fear
+Freezing Moon - Ancient Beast,yeah the method Creature#takedamage has a 'ignore retaliation' argument so it's clear that something has been done like this but idk if it's exactly what i need here,fear,fear
+Freezing Moon - Ancient Beast,"right, because way back, Abolishe's passive was doing damage all around when actually receiving damage, so 2 Abolished next to each other caused issues",sadness,sadness
+Freezing Moon - Ancient Beast,"i think the only way i can make this work right now is if the counter is only done when the DP takes some damage, would that be ok for now?",fear,fear
+Freezing Moon - Ancient Beast,"the main issue i'm having is that when an ability is used on a target it should set a field (Ability#target) but somehow this isn't being updated correctly.. probably because some abilities attack a hex and not a target, even though they are affecting a target",fear,fear
+Freezing Moon - Ancient Beast,"yep, that's the desired effect",joy,joy
+Freezing Moon - Ancient Beast,more desired at least,joy,joy
+Freezing Moon - Ancient Beast,but if this idea i have will work (hopefully it will) it means that it is only a solution for this ability (plasma field) and not to all counter-like abilities,sadness,sadness
+Freezing Moon - Ancient Beast,"which is not the best thing, but means it will probably work as desired",sadness,sadness
+Freezing Moon - Ancient Beast,it's ok; no other counter abilities atm anyway,sadness,sadness
+Freezing Moon - Ancient Beast,"alright cross you fingers then, if only for this ability i can probably just use the #activeunit field we were talking about a while ago",fear,fear
+Freezing Moon - Ancient Beast,"yeah, confirmed, haven't touched that Adaptation unit design wise recently though, it's still in old style",sadness,sadness
+Freezing Moon - Ancient Beast,"if I think about it, will also do damage to \organic\ attacks, which are considered \melee attacks with range\ in some way",fear,sadness
+Freezing Moon - Ancient Beast,good thing you're still here just talking to you made me think of another solution :D,love,love
+Freezing Moon - Ancient Beast,"a stretched limb can get the attacking unit damaged, while an arrow won't; but arrow at melee range would still cause the unit to be targeted by proximity",fear,fear
+Freezing Moon - Ancient Beast,"the way i'm doing i don't think i can check if the attack was a melee/limb easily, maybe it's something to be improved later on",sadness,sadness
+Freezing Moon - Ancient Beast,hard to say without knowing the code better,fear,fear
+Freezing Moon - Ancient Beast,"yeah, sometimes it's really useful for me as well to just have someone to bounce ideas with, even if he doesn't contribute too much :)",joy,joy
+Freezing Moon - Ancient Beast,but seemed too much work and a bit too early to get to know all the parameters required,sadness,anger
+Freezing Moon - Ancient Beast,oh nice just saw that melee is calculated exactly the way it's necessary for this to work :D,joy,joy
+Freezing Moon - Ancient Beast,thought it was hard to figure it out... but it's good news,joy,joy
+Freezing Moon - Ancient Beast,"i agree, first things first: making a fun game that can be played",joy,joy
+Freezing Moon - Ancient Beast,and enjoyed,joy,joy
+Freezing Moon - Ancient Beast,it works :D,joy,joy
+Freezing Moon - Ancient Beast,good stuff! i was hoping to add a feature to help debugging but i guess it's too late to start that today :P,joy,joy
+Freezing Moon - Ancient Beast,because today i had to change the value of hardcoded upgrades to 1 manually,sadness,sadness
+Freezing Moon - Ancient Beast,"figured; and even later on, there's no UI setting for 1",sadness,sadness
+Freezing Moon - Ancient Beast,if somehow i pushed that into the source code by mistake it would be a huge problem,fear,fear
+Freezing Moon - Ancient Beast,"there used to be lame settings with low time pools or just a few plasma point pools, not useful for real gameplay, but useful for testing indeed",sadness,sadness
+Freezing Moon - Ancient Beast,yeah exactly that but without a system for that if a programmer starts messing around with 'testing features' then it could somehow end up in the code if he is not careful about returning things to their original state,fear,fear
+Freezing Moon - Ancient Beast,i really won't have time to do that tomorrow but maybe next week :) it's a simple thing but helpful but gotta figure out how to do it properly,sadness,sadness
+Freezing Moon - Ancient Beast,"well, all actions get logged atm and can be replayed, so that's helpful",joy,joy
+Freezing Moon - Ancient Beast,alright i'd have to see how it's programmed then :) but rly if you think i'd be a good asset for the team i'd ask you to start working on that networking code asap.. we could use it for the undo and replay features as well,joy,joy
+Freezing Moon - Ancient Beast,plus getting to play the game with you guys would be a total winner :D,joy,joy
+Freezing Moon - Ancient Beast,"that guy from London, he's my best buddy",love,love
+Freezing Moon - Ancient Beast,"and after a few matches, he tends to learn all the stuff and beat the crap out of me at my own game xD",joy,joy
+Freezing Moon - Ancient Beast,sounds like a nice guy :),love,love
+Freezing Moon - Ancient Beast,good thing there's a 2vs2 and could play along with him vs others,joy,joy
+Freezing Moon - Ancient Beast,"I lost quite a few beers vs him, had to put a cap and try to earn back some of them",sadness,sadness
+Freezing Moon - Ancient Beast,oh yeah absolutely! man i'm dying to play a match of this online hahah,joy,joy
+Freezing Moon - Ancient Beast,"interesting but online games are easy to cheat, we'd have to make sure cheating is very hard to do",fear,fear
+Freezing Moon - Ancient Beast,yeah that is something easier to do when the online play is working.. so you can test against other people + having fun while playtesting :D,joy,joy
+Freezing Moon - Ancient Beast,"yeah, didn't like it as much as the original C&C games though",sadness,anger
+Freezing Moon - Ancient Beast,"anyway, they're putting bountysource.com to really good use",joy,joy
+Freezing Moon - Ancient Beast,u said the changes would take 2-3 hours but it was more like 6 haha good thing i had the whole day for that :),joy,joy
+Freezing Moon - Ancient Beast,"well if you want my help i'd be glad to give it, had a lot of fun today plus i think the game can get really good",joy,joy
+Freezing Moon - Ancient Beast,"yeah, i'm not complaining just commenting on it.. also if i had more experience with the codebase maybe it would have taken only 2-3h indeed",sadness,sadness
+Freezing Moon - Ancient Beast,"it's your choice, as I said.. sometimes many developers can be a problem as well",sadness,sadness
+Freezing Moon - Ancient Beast,i guess you're already getting a lot of work done with these tests :D that's a good thing too,joy,joy
+Freezing Moon - Ancient Beast,i wish i could do this kind of work for free as well but unfortunately it's not possible right now.. but it would be a dream come true to work full time on a project like this,sadness,sadness
+Freezing Moon - Ancient Beast,kind of a small change in that patch but good to receive contributions like that,joy,joy
+Freezing Moon - Ancient Beast,"it's not working code, just pseudo code",sadness,sadness
+Freezing Moon - Ancient Beast,maybe not even good pseudo code,sadness,sadness
+Freezing Moon - Ancient Beast,"code looks good, will do tests tomorrow, will have to merge first probably regardless",joy,joy
